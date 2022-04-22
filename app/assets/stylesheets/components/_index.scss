@@ -2,3 +2,20 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
+
+body{
+  background-color: $light-gray;
+}
+
+.linky{
+  color: black;
+  text-align: right;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.linky:hover{
+  color: black;
+  opacity: 0.7;
+  text-decoration: underline;
+}
